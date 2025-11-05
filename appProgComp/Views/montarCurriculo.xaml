@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appProgComp.Views.montarCurriculo"
+             Title="montarCurriculo" BackgroundColor="#FFF4E8" Shell.NavBarIsVisible="False">
+    <VerticalStackLayout Padding="20" Spacing="12">
+        <Label
+            Text="Monte seu Currículo"
+            FontSize="24"
+            FontAttributes="Bold"
+            HorizontalOptions="Center" />
+
+        <Label Text="Nome completo:" />
+        <Entry x:Name="entryNome" Placeholder="Digite seu nome" />
+
+        <Label Text="Resumo gerado:" />
+        <Editor x:Name="editorCurriculo"
+                IsReadOnly="True"
+                AutoSize="TextChanges"
+                HeightRequest="240"
+                BackgroundColor="#FFFFFFFF" />
+
+        <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+            <Button x:Name="btnGerar" BackgroundColor="DarkBlue" Text="Gerar Currículo" Clicked="OnGerarClicked" />
+            <Button x:Name="btnLimpar" BackgroundColor="DarkBlue" Text="Limpar" Clicked="OnLimparClicked" />
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>
