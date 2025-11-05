@@ -2,8 +2,16 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="appProgComp.Views.agradTela"
-             Title="agradTela" Shell.NavBarIsVisible="False">
-    <VerticalStackLayout>
-        <Image Source="grafico.png" HorizontalOptions="Center" WidthRequest="300" Margin="0,20,0,0"/> 
+             Title="agradTela" Shell.NavBarIsVisible="False" BackgroundColor="#FFF4E8">
+    <VerticalStackLayout HorizontalOptions="Center" Padding="0" Spacing="0">
+        <Image Source="grafico.png" HorizontalOptions="Center" WidthRequest="225" Margin="0,0,0,0"/>
+        <Label
+            Text="Agradecemos por usar o aplicativo e confiar no nosso conteúdo. Esperamos que as informações compartilhadas tenham te ajudado a se conhecer melhor e se preparar para o mercado de trabalho. Lembre-se: a carreira não é um destino, é um caminho que se constrói com aprendizado, esforço e propósito. Volte sempre que quiser revisar, refletir ou dar o próximo passo.✌️ "
+            HorizontalOptions="Center"
+            HorizontalTextAlignment="Center"
+            WidthRequest="375"
+            LineBreakMode="WordWrap"
+            FontSize="Micro" 
+            FontAttributes="Bold"/>
     </VerticalStackLayout>
 </ContentPage>
