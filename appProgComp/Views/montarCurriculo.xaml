@@ -8,14 +8,15 @@
         <VerticalStackLayout Padding="20" Spacing="12">
             <Label Text="Montar Currículo" FontAttributes="Bold" FontSize="Large" HorizontalOptions="Center"/>
 
-            <Entry x:Name="entryNome" Placeholder="Nome completo" />
+            <Entry x:Name="entryNome" Placeholder="Nome completo" BackgroundColor="White" />
 
-            <Entry x:Name="entrySkills" Placeholder="Habilidades (separe por vírgula)" />
+            <Entry x:Name="entrySkills" Placeholder="Habilidades (separe por vírgula)"  BackgroundColor="White"/>
 
             <Editor x:Name="editorExperiencias"
                     Placeholder="Descreva experiências anteriores (empresa, função, período)..."
                     AutoSize="TextChanges"
-                    HeightRequest="120" />
+                    HeightRequest="120" 
+                    BackgroundColor="White"/>
 
             <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
                 <Button Text="Gerar" Clicked="OnGerarClicked" BackgroundColor="DarkOrange" TextColor="White"/>
@@ -27,7 +28,8 @@
             <Editor x:Name="editorCurriculo"
                     IsReadOnly="True"
                     AutoSize="TextChanges"
-                    HeightRequest="280" />
+                    HeightRequest="280" 
+                    BackgroundColor="White"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

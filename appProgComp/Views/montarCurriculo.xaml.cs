@@ -25,7 +25,6 @@ public partial class montarCurriculo : ContentPage
 
         // Template solicitado, com placeholder {nome}
         var template = @"
-{nome}
 Resumo profissional:
 Sou {nome}, um profissional comprometido, responsável e orientado a resultados. Possuo facilidade para aprender, adaptar-me a novas demandas e atuar de forma colaborativa com diferentes equipes. Prezo pela organização, comunicação eficiente e postura profissional em todas as atividades desempenhadas. Busco uma oportunidade que permita aplicar minhas competências, desenvolver novos conhecimentos e contribuir de maneira consistente para o crescimento da empresa.
 
