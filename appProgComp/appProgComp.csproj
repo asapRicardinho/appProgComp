@@ -21,12 +21,13 @@
 		<Nullable>enable</Nullable>
 
 		<!-- Display name -->
-		<ApplicationTitle>appProgComp</ApplicationTitle>
+		<ApplicationTitle>NextStep</ApplicationTitle>
 
 		<!-- App Identifier -->
 		<ApplicationId>com.companyname.appprogcomp</ApplicationId>
 
 		<WindowsPackageDisplayName>NextStep</WindowsPackageDisplayName>
+
 
 		<!-- Versions -->
 		<ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>
