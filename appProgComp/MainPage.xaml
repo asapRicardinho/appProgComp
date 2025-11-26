@@ -16,7 +16,7 @@
             <Image Source="logo2.png" HorizontalOptions="Center" WidthRequest="225"/>
             <Label Text="Orientação Vocacional para Jovens" FontSize="Title" TextColor="DarkOrange" FontAttributes="Bold" HorizontalOptions="Center"/>
            <Label Text="Recém Inseridos no Mercado de Trabalho" FontSize="Subtitle" TextColor="DarkBlue"  HorizontalOptions="Center" />
-           <Button x:Name="btnAcessar" Text="Acessar" Clicked="btnAcessar_Clicked" BackgroundColor="DarkBlue" HorizontalOptions="Center" Padding="70, 0" CornerRadius="20" />
+           <Button x:Name="btnAcessar" Text="Acessar" TextColor="White" Clicked="btnAcessar_Clicked" BackgroundColor="DarkBlue" HorizontalOptions="Center" Padding="70, 0" CornerRadius="20" />
 
         </VerticalStackLayout>
     </ScrollView>

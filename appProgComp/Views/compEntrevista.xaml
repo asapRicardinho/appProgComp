@@ -13,71 +13,115 @@
                              VerticalOptions="Fill">
             
             <Label Text='A entrevista é um dos momentos mais importantes do processo seletivo. É quando o recrutador tem a oportunidade de conhecer você além do que está escrito no currículo, observando sua postura, sua comunicação e o quanto está preparado para a vaga.'
+                   TextColor="Black"
                    FontSize="Medium"
                    LineBreakMode="WordWrap"
                    Margin="0,0,0,0" />
 
             <Label Text='Antes da entrevista, pesquise sobre a empresa: entenda o que ela faz, seus valores e o tipo de profissional que costuma buscar. Isso ajuda a demonstrar interesse e segurança ao falar. Escolha uma roupa simples e adequada, que transmita cuidado e respeito.'
+                   TextColor="Black"
                    FontSize="Medium"
                    LineBreakMode="WordWrap"
                    Margin="0,0,0,0" />
 
             <Label Text='Durante a conversa, mantenha a calma e fale de forma clara. Ouça atentamente as perguntas, responda com sinceridade e evite decorar falas prontas. Mostre disposição para aprender e crescer, mesmo que ainda não tenha experiência. A sinceridade e a vontade de evoluir contam muito.'
+                   TextColor="Black"
                    FontSize="Medium"
                    LineBreakMode="WordWrap"
                    Margin="0,0,0,0" />
 
             <Label Text='Se possível, treine com alguém de confiança, simulando perguntas comuns como “Fale sobre você” ou “Por que quer trabalhar aqui?”. Esse tipo de prática ajuda a desenvolver naturalidade e confiança.'
+                   TextColor="Black"
                    FontSize="Medium"
                    LineBreakMode="WordWrap"
                    Margin="0,0,0,0" />
 
             <Label Text='Ao final, agradeça pela oportunidade e, se o recrutador perguntar, sinta-se à vontade para esclarecer dúvidas sobre o trabalho. Uma boa entrevista é aquela em que você sai com a sensação de ter mostrado o seu melhor.'
+                   TextColor="Black"
                    FontSize="Medium"
                    LineBreakMode="WordWrap"
                    Margin="0,0,0,0" />
 
             <Label Text='O currículo é o primeiro contato entre você e a empresa. Ele deve ser claro, objetivo e organizado. Lembre-se: o recrutador costuma dedicar poucos segundos a cada documento, então, quanto mais fácil for de ler, melhor.'
+                   TextColor="Black"
                    FontSize="Medium"
                    LineBreakMode="WordWrap"
                    Margin="0,0,0,0" />
 
             <Label Text='Comece com seus dados pessoais — nome completo, telefone, e-mail e cidade. Depois, inclua um objetivo profissional simples, como: “Busco minha primeira oportunidade de trabalho” ou “Procuro desenvolver minhas habilidades em ambiente profissional”.'
+                   TextColor="Black"
                    FontSize="Medium"
                    LineBreakMode="WordWrap"
                    Margin="0,0,0,0" />
 
             <Label Text='Na seção de formação, informe o nome da escola, o curso e o ano de conclusão (ou se está cursando). Em seguida, liste suas experiências anteriores, mesmo que sejam pequenas ou voluntárias, como participação em projetos escolares, feiras, vendas informais ou trabalhos temporários. Isso mostra iniciativa e responsabilidade.'
+                   TextColor="Black"
                    FontSize="Medium"
                    LineBreakMode="WordWrap"
                    Margin="0,0,0,0" />
 
             <Label Text='Se tiver cursos ou oficinas, mencione-os também. Mesmo cursos curtos contam pontos, pois mostram que você está investindo no próprio desenvolvimento.'
+                   TextColor="Black"
                    FontSize="Medium"
                    LineBreakMode="WordWrap"
                    Margin="0,0,0,0" />
 
             <Label Text='Revise o texto, evite erros de digitação e prefira um modelo simples, de uma página. O mais importante é transmitir quem você é e o que pode oferecer.'
+                   TextColor="Black"
                    FontSize="Medium"
                    LineBreakMode="WordWrap"
                    Margin="0,0,0,0" />
 
             <Label Text='Entender a si mesmo é o ponto de partida para qualquer jornada profissional. O autoconhecimento ajuda você a descobrir suas preferências, seus talentos e o tipo de ambiente em que se sente mais motivado a trabalhar.'
+                   TextColor="Black"
                    FontSize="Medium"
                    LineBreakMode="WordWrap"
                    Margin="0,0,0,0" />
 
             <Label Text='Pergunte-se: “O que me deixa animado?”, “Quais atividades eu gosto de fazer mesmo sem recompensa?”, “Que tipo de tarefa me desafia, mas me faz sentir realizado?”. Essas respostas ajudam a identificar caminhos profissionais mais compatíveis com sua personalidade.'
+                   TextColor="Black"
                    FontSize="Medium"
                    LineBreakMode="WordWrap"
                    Margin="0,0,0,0" />
 
             <Label Text='Reconhecer seus pontos fortes também é essencial. Talvez você tenha facilidade para se comunicar, seja organizado, criativo ou tenha paciência para ensinar. Da mesma forma, identificar o que precisa melhorar é uma oportunidade de crescimento — ninguém é bom em tudo, e o importante é saber onde investir esforço.'
+                   TextColor="Black"
                    FontSize="Medium"
                    LineBreakMode="WordWrap"
                    Margin="0,0,0,0" />
 
             <Label Text='Reserve um tempo para refletir sobre suas experiências, mesmo as mais simples. Cada uma delas revela algo sobre você. Quanto mais você se conhece, mais preparado estará para fazer escolhas que realmente façam sentido para sua vida e carreira.'
+                   TextColor="Black"
+                   FontSize="Medium"
+                   LineBreakMode="WordWrap"
+                   Margin="0,0,0,0" />
+
+            <Label Text='Mesmo sem experiência, é possível aprender muito e se preparar melhor para o mercado de trabalho. Hoje existem diversos recursos gratuitos e acessíveis que podem ajudar a desenvolver habilidades profissionais e pessoais.'
+                   TextColor="Black"
+                   FontSize="Medium"
+                   LineBreakMode="WordWrap"
+                   Margin="0,0,0,0" />
+
+            <Label Text='O Google Ateliê Digital, por exemplo, oferece cursos sobre marketing, comunicação e carreira. Já o SENAI e o SENAC disponibilizam formações técnicas e profissionalizantes em várias áreas, muitas vezes com bolsas gratuitas.'
+                   TextColor="Black"
+                   FontSize="Medium"
+                   LineBreakMode="WordWrap"
+                   Margin="0,0,0,0" />
+
+            <Label Text='O CIEE (Centro de Integração Empresa-Escola) é uma das principais portas de entrada para programas de Jovem Aprendiz e estágios. Cadastrar-se lá é uma ótima forma de começar.'
+                   TextColor="Black"
+                   FontSize="Medium"
+                   LineBreakMode="WordWrap"
+                   Margin="0,0,0,0" />
+
+            <Label Text='Também existem plataformas como o LinkedIn Learning e a Fundação Bradesco Escola Virtual, com cursos sobre atendimento, tecnologia, administração e comportamento no trabalho.'
+                   TextColor="Black"
+                   FontSize="Medium"
+                   LineBreakMode="WordWrap"
+                   Margin="0,0,0,0" />
+
+            <Label Text='Aproveite esses recursos aos poucos. Mesmo dedicando apenas alguns minutos por dia, você estará construindo uma base sólida para o futuro. A preparação é o que transforma vontade em oportunidade.'
+                   TextColor="Black"
                    FontSize="Medium"
                    LineBreakMode="WordWrap"
                    Margin="0,0,0,0" />

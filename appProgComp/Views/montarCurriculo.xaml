@@ -6,30 +6,33 @@
              Shell.NavBarIsVisible="False">
     <ScrollView>
         <VerticalStackLayout Padding="20" Spacing="12">
-            <Label Text="Montar Currículo" FontAttributes="Bold" FontSize="Large" HorizontalOptions="Center"/>
+            <Label Text="Montar Currículo" TextColor="Black" FontAttributes="Bold" FontSize="Large" HorizontalOptions="Center"/>
 
-            <Entry x:Name="entryNome" Placeholder="Nome completo" BackgroundColor="White" />
+            <Entry x:Name="entryNome" Placeholder="Nome completo" PlaceholderColor="Grey" TextColor="Black" BackgroundColor="White" />
 
-            <Entry x:Name="entrySkills" Placeholder="Habilidades (separe por vírgula)"  BackgroundColor="White"/>
+            <Entry x:Name="entrySkills" Placeholder="Habilidades (separe por vírgula)" PlaceholderColor="Grey" TextColor="Black"  BackgroundColor="White"/>
 
             <Editor x:Name="editorExperiencias"
                     Placeholder="Descreva experiências anteriores (empresa, função, período)..."
+                    PlaceholderColor="Grey"
+                    TextColor="Black"
                     AutoSize="TextChanges"
                     HeightRequest="120" 
                     BackgroundColor="White"/>
 
             <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
                 <Button Text="Gerar" Clicked="OnGerarClicked" BackgroundColor="DarkOrange" TextColor="White"/>
-                <Button Text="Limpar" Clicked="OnLimparClicked" />
+                <Button Text="Limpar" Clicked="OnLimparClicked" TextColor="White"/>
             </HorizontalStackLayout>
 
-            <Label Text="Currículo gerado:" FontAttributes="Bold" />
+            <Label Text="Currículo gerado:" FontAttributes="Bold" TextColor="Black"/>
 
             <Editor x:Name="editorCurriculo"
                     IsReadOnly="True"
                     AutoSize="TextChanges"
                     HeightRequest="280" 
-                    BackgroundColor="White"/>
+                    BackgroundColor="White"
+                    TextColor="Black"/>
         </VerticalStackLayout>
     </ScrollView>
 </ContentPage>

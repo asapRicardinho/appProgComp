@@ -13,21 +13,25 @@
                              VerticalOptions="Fill">
 
             <Label Text='Antes de decidir qual caminho seguir no mercado de trabalho, é essencial entender quem você é, o que gosta de fazer e quais habilidades já possui. O autoconhecimento é o ponto de partida para escolhas mais seguras e alinhadas ao seu perfil, evitando decisões feitas apenas por impulso ou pressão externa. Quando você reconhece seus pontos fortes, suas dificuldades e seus interesses, fica muito mais fácil identificar oportunidades que realmente fazem sentido e construir uma trajetória profissional com propósito.'
+                   TextColor="Black"
                    FontSize="Medium"
                    LineBreakMode="WordWrap"
                    Margin="0,0,0,0" />
 
             <Label Text='Nesta seção, você encontrará ferramentas e reflexões que ajudam a olhar para dentro com mais clareza. Aqui, você poderá explorar seus talentos naturais, perceber quais atividades despertam sua motivação e entender como suas experiências anteriores influenciam a forma como você aprende, trabalha e se relaciona. O objetivo é que você desenvolva uma visão mais completa de si mesmo, fortalecendo sua confiança e criando bases sólidas para planejar seus próximos passos.'
+                   TextColor="Black"
                    FontSize="Medium"
                    LineBreakMode="WordWrap"
                    Margin="0,0,0,0" />
 
             <Label Text='O autoconhecimento também contribui para melhorar a tomada de decisões, ampliar sua maturidade emocional e aprimorar habilidades importantes para o ambiente profissional, como comunicação, organização e pensamento crítico. Ao compreender seus valores e suas prioridades, você ganha autonomia para escolher caminhos que estejam verdadeiramente conectados aos seus objetivos de vida.'
+                   TextColor="Black"
                    FontSize="Medium"
                    LineBreakMode="WordWrap"
                    Margin="0,0,0,0" />
 
             <Label Text='Esta jornada de descoberta não precisa ser complicada: basta disposição para refletir, experimentar e aprender com cada etapa do processo.'
+                   TextColor="Black"
                    FontSize="Medium"
                    LineBreakMode="WordWrap"
                    Margin="0,0,0,0" />
