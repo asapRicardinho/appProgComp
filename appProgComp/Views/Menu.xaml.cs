@@ -7,7 +7,7 @@ public partial class Menu : ContentPage
 	public Menu()
 	{
 		InitializeComponent();
-	}
+    }
 
     private async void btnComportamento_Clicked(object sender, EventArgs e)
     {
@@ -21,12 +21,12 @@ public partial class Menu : ContentPage
 
     private async void btnAutoconhecimento_Clicked(object sender, EventArgs e)
     {
-
+        await Navigation.PushAsync(new autoConhecimento());
     }
 
     private async void btnRecursos_Clicked(object sender, EventArgs e)
     {
-
+        await Navigation.PushAsync(new recursos());
     }
 
     private async void btnAgradecimento_Clicked(object sender, EventArgs e)

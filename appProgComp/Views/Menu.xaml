@@ -15,7 +15,7 @@
             <Button x:Name="btnCurriculo" Clicked="btnCurriculo_Clicked" Text="Montagem de Currículo" BackgroundColor="DarkOrange" HorizontalOptions="Fill" Padding="50, 0" CornerRadius="20"/>
             <Button x:Name="btnAutoconhecimento" Clicked="btnAutoconhecimento_Clicked" Text="Autoconhecimento" BackgroundColor="DarkOrange" HorizontalOptions="Fill" Padding="50, 0" CornerRadius="20"/>
             <Button x:Name="btnRecursos" Clicked="btnRecursos_Clicked" Text="Recursos" BackgroundColor="DarkOrange" HorizontalOptions="Fill" Padding="50, 0" CornerRadius="20"/>
-            <Button x:Name="btnAgradecimento" Clicked="btnAgradecimento_Clicked" Text="Agradecimento" BackgroundColor="DarkOrange" HorizontalOptions="Fill" Padding="50, 0" CornerRadius="20"/>
+            <Button x:Name="btnAgradecimento" Clicked="btnAgradecimento_Clicked" Text="Creditos" BackgroundColor="DarkOrange" HorizontalOptions="Fill" Padding="50, 0" CornerRadius="20"/>
         </StackLayout>
         
     </VerticalStackLayout>

@@ -20,40 +20,50 @@ public partial class montarCurriculo : ContentPage
             return;
         }
 
-        // Gera um texto simples de currículo; ajuste conforme necessário.
-        var curriculo = $@"
+        var skillsRaw = (entrySkills?.Text ?? string.Empty).Trim();
+        var experienciasRaw = (editorExperiencias?.Text ?? string.Empty).Trim();
+
+        // Template solicitado, com placeholder {nome}
+        var template = @"
 {nome}
 Resumo profissional:
-Profissional iniciante motivado, com boa capacidade de aprendizado e interesse em iniciar a carreira na área técnica. Procuro oportunidades para aplicar conhecimentos práticos e desenvolver habilidades profissionais.
+Sou {nome}, um profissional comprometido, responsável e orientado a resultados. Possuo facilidade para aprender, adaptar-me a novas demandas e atuar de forma colaborativa com diferentes equipes. Prezo pela organização, comunicação eficiente e postura profissional em todas as atividades desempenhadas. Busco uma oportunidade que permita aplicar minhas competências, desenvolver novos conhecimentos e contribuir de maneira consistente para o crescimento da empresa.
 
-Objetivo:
-Busco posição de nível júnior ou estágio onde eu possa contribuir com minha dedicação, aprender com equipes experientes e crescer profissionalmente.
+Habilidades:
+{habilidades}
 
-Principais competências:
-- Boa comunicação e trabalho em equipe.
-- Interesse em aprender novas tecnologias e ferramentas.
-- Proatividade e responsabilidade.
-
-Formação:
-- Ensino médio completo / em andamento (adicione sua formação real).
-
-Experiência:
-- (Se for inicial, descreva estágios, trabalhos temporários ou projetos estudantis relevantes.)
-
-Observações finais:
-Disponibilidade para entrevistas e início conforme combinado. Contato disponível no currículo anexo.
-
+Experiências anteriores:
+{experiencias}
 ";
 
-        // Substituições simples para personalizar mais o texto
-        curriculo = curriculo.Replace("Profissional iniciante", "Profissional iniciante: " + nome.Split(' ')[0]);
+        // Formata habilidades (cada item em uma linha com "- ")
+        var habilidadesFormatted = "Nenhuma habilidade informada.";
+        if (!string.IsNullOrWhiteSpace(skillsRaw))
+        {
+            var parts = skillsRaw.Split(new[] {','}, StringSplitOptions.RemoveEmptyEntries);
+            for (int i = 0; i < parts.Length; i++)
+                parts[i] = "- " + parts[i].Trim();
+            habilidadesFormatted = string.Join(Environment.NewLine, parts);
+        }
 
-        editorCurriculo.Text = curriculo.Trim();
+        var experienciasFormatted = string.IsNullOrWhiteSpace(experienciasRaw)
+            ? "Nenhuma experiência anterior informada."
+            : experienciasRaw.Trim();
+
+        var curriculo = template
+            .Replace("{nome}", nome)
+            .Replace("{habilidades}", habilidadesFormatted)
+            .Replace("{experiencias}", experienciasFormatted)
+            .Trim();
+
+        editorCurriculo.Text = curriculo;
     }
 
     void OnLimparClicked(object sender, EventArgs e)
     {
         entryNome.Text = string.Empty;
+        entrySkills.Text = string.Empty;
+        editorExperiencias.Text = string.Empty;
         editorCurriculo.Text = string.Empty;
     }
 }

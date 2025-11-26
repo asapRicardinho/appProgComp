@@ -3,15 +3,111 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="appProgComp.Views.agradTela"
              Title="agradTela" Shell.NavBarIsVisible="False" BackgroundColor="#FFF4E8">
-    <VerticalStackLayout HorizontalOptions="Center" Padding="0" Spacing="0">
-        <Image Source="grafico.png" HorizontalOptions="Center" WidthRequest="225" Margin="0,0,0,0"/>
-        <Label
-            Text="Agradecemos por usar o aplicativo e confiar no nosso conteúdo. Esperamos que as informações compartilhadas tenham te ajudado a se conhecer melhor e se preparar para o mercado de trabalho. Lembre-se: a carreira não é um destino, é um caminho que se constrói com aprendizado, esforço e propósito. Volte sempre que quiser revisar, refletir ou dar o próximo passo.✌️ "
-            HorizontalOptions="Center"
-            HorizontalTextAlignment="Center"
-            WidthRequest="375"
-            LineBreakMode="WordWrap"
-            FontSize="Micro" 
-            FontAttributes="Bold"/>
+    <VerticalStackLayout HorizontalOptions="Center" Padding="0" Spacing="20" Margin="0,50,0,0">
+        
+        <VerticalStackLayout HorizontalOptions="Center" Spacing="4">
+            <Label
+                Text="Disciplina"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                WidthRequest="375"
+                LineBreakMode="WordWrap"
+                FontSize="Micro"/>
+
+            <Label
+                Text="Programação de Computadores"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                WidthRequest="375"
+                LineBreakMode="WordWrap"
+                FontSize="Micro" 
+                FontAttributes="Bold"/>
+        </VerticalStackLayout>
+
+        <VerticalStackLayout HorizontalOptions="Center" Spacing="4" Margin="0,8,0,0">
+            <Label
+                Text="Professor Responsável"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                WidthRequest="375"
+                LineBreakMode="WordWrap"
+                FontSize="Micro"/>
+
+            <Label
+                Text="Prof. Dr. Elvio Gilberto da Silva"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                WidthRequest="375"
+                LineBreakMode="WordWrap"
+                FontSize="Micro" 
+                FontAttributes="Bold"/>
+        </VerticalStackLayout>
+
+        <VerticalStackLayout HorizontalOptions="Center" Spacing="4" Margin="12,8,12,0">
+            <Label
+                Text="Desenvolvedores"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                WidthRequest="375"
+                LineBreakMode="WordWrap"
+                FontSize="Micro"/>
+
+            <Label
+                Text="Higor Fernandes"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                WidthRequest="375"
+                LineBreakMode="WordWrap"
+                FontSize="Micro"/>
+
+            <Label
+                Text="Felipe Saggioro Pinhatar"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                WidthRequest="375"
+                LineBreakMode="WordWrap"
+                FontSize="Micro"/>
+
+            <Label
+                Text="Ricardo Mazzo do Nascimento"
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                WidthRequest="375"
+                LineBreakMode="WordWrap"
+                FontSize="Micro"/>
+        </VerticalStackLayout>
+
+        <VerticalStackLayout HorizontalOptions="Center" Spacing="8" Margin="0,12,0,0">
+            <VerticalStackLayout HorizontalOptions="Center" Spacing="6" WidthRequest="220">
+                <Label
+                    Text="Desenvolvimento"
+                    HorizontalOptions="Center"
+                    HorizontalTextAlignment="Center"
+                    LineBreakMode="WordWrap"
+                    FontSize="Small"
+                    FontAttributes="Bold"/>
+                <Image
+                    Source="cienciacomputacao.jpg"
+                    HorizontalOptions="Center"
+                    Aspect="AspectFit"
+                    WidthRequest="180"/>
+            </VerticalStackLayout>
+
+            <VerticalStackLayout HorizontalOptions="Center" Spacing="6" WidthRequest="220" Margin="0,8,0,0">
+                <Label
+                    Text="Apoio"
+                    HorizontalOptions="Center"
+                    HorizontalTextAlignment="Center"
+                    LineBreakMode="WordWrap"
+                    FontSize="Small"
+                    FontAttributes="Bold"/>
+                <Image
+                    Source="extensao.jpg"
+                    HorizontalOptions="Center"
+                    Aspect="AspectFit"
+                    WidthRequest="180"/>
+            </VerticalStackLayout>
+        </VerticalStackLayout>
+
     </VerticalStackLayout>
 </ContentPage>

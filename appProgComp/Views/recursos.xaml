@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="appProgComp.Views.recursos"
+             Title="recursos" BackgroundColor="#FFF4E8" Shell.NavBarIsVisible="False"
+             Padding="16">
+    <ScrollView>
+        <VerticalStackLayout HorizontalOptions="FillAndExpand"
+                             Padding="12,24" Spacing="16"
+                             Margin="0"
+                             BackgroundColor="White"
+                             VerticalOptions="Fill">
+
+            <Label Text='Mesmo sem experiência, é possível aprender muito e se preparar melhor para o mercado de trabalho. Hoje existem diversos recursos gratuitos e acessíveis que podem ajudar a desenvolver habilidades profissionais e pessoais.'
+                   FontSize="Medium"
+                   LineBreakMode="WordWrap"
+                   Margin="0,0,0,0" />
+
+            <Label Text='O Google Ateliê Digital, por exemplo, oferece cursos sobre marketing, comunicação e carreira. Já o SENAI e o SENAC disponibilizam formações técnicas e profissionalizantes em várias áreas, muitas vezes com bolsas gratuitas.'
+                   FontSize="Medium"
+                   LineBreakMode="WordWrap"
+                   Margin="0,0,0,0" />
+
+            <Label Text='O CIEE (Centro de Integração Empresa-Escola) é uma das principais portas de entrada para programas de Jovem Aprendiz e estágios. Cadastrar-se lá é uma ótima forma de começar.'
+                   FontSize="Medium"
+                   LineBreakMode="WordWrap"
+                   Margin="0,0,0,0" />
+
+            <Label Text='Também existem plataformas como o LinkedIn Learning e a Fundação Bradesco Escola Virtual, com cursos sobre atendimento, tecnologia, administração e comportamento no trabalho.'
+                   FontSize="Medium"
+                   LineBreakMode="WordWrap"
+                   Margin="0,0,0,0" />
+
+            <Label Text='Aproveite esses recursos aos poucos. Mesmo dedicando apenas alguns minutos por dia, você estará construindo uma base sólida para o futuro. A preparação é o que transforma vontade em oportunidade.'
+                   FontSize="Medium"
+                   LineBreakMode="WordWrap"
+                   Margin="0,0,0,0" />
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

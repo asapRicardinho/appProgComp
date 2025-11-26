@@ -2,27 +2,32 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="appProgComp.Views.montarCurriculo"
-             Title="montarCurriculo" BackgroundColor="#FFF4E8" Shell.NavBarIsVisible="False">
-    <VerticalStackLayout Padding="20" Spacing="12">
-        <Label
-            Text="Monte seu Currículo"
-            FontSize="24"
-            FontAttributes="Bold"
-            HorizontalOptions="Center" />
+             BackgroundColor="#FFF4E8"
+             Shell.NavBarIsVisible="False">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="12">
+            <Label Text="Montar Currículo" FontAttributes="Bold" FontSize="Large" HorizontalOptions="Center"/>
 
-        <Label Text="Nome completo:" />
-        <Entry x:Name="entryNome" Placeholder="Digite seu nome" />
+            <Entry x:Name="entryNome" Placeholder="Nome completo" />
 
-        <Label Text="Resumo gerado:" />
-        <Editor x:Name="editorCurriculo"
-                IsReadOnly="True"
-                AutoSize="TextChanges"
-                HeightRequest="240"
-                BackgroundColor="#FFFFFFFF" />
+            <Entry x:Name="entrySkills" Placeholder="Habilidades (separe por vírgula)" />
 
-        <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
-            <Button x:Name="btnGerar" BackgroundColor="DarkBlue" Text="Gerar Currículo" Clicked="OnGerarClicked" />
-            <Button x:Name="btnLimpar" BackgroundColor="DarkBlue" Text="Limpar" Clicked="OnLimparClicked" />
-        </HorizontalStackLayout>
-    </VerticalStackLayout>
+            <Editor x:Name="editorExperiencias"
+                    Placeholder="Descreva experiências anteriores (empresa, função, período)..."
+                    AutoSize="TextChanges"
+                    HeightRequest="120" />
+
+            <HorizontalStackLayout Spacing="10" HorizontalOptions="Center">
+                <Button Text="Gerar" Clicked="OnGerarClicked" BackgroundColor="DarkOrange" TextColor="White"/>
+                <Button Text="Limpar" Clicked="OnLimparClicked" />
+            </HorizontalStackLayout>
+
+            <Label Text="Currículo gerado:" FontAttributes="Bold" />
+
+            <Editor x:Name="editorCurriculo"
+                    IsReadOnly="True"
+                    AutoSize="TextChanges"
+                    HeightRequest="280" />
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
