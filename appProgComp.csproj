@@ -1,4 +1,3 @@
 <ItemGroup>
-  <!-- Ícone da aplicação (MAUI gera múltiplos tamanhos por plataforma a partir do SVG) -->
   <MauiIcon Include="Resources\Images\bussola.png" />
 </ItemGroup>
