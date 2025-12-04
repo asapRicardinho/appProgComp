@@ -3,20 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="appProgComp.Views.Menu" Shell.NavBarIsVisible="False"
              Title="Menu" Padding="0,125,0,0"
-             BackgroundColor="#FFF4E8"> 
-    <VerticalStackLayout Spacing="50" HorizontalOptions="Center">
-        <StackLayout>
-            <Label Text="Menu Principal" TextColor="DarkOrange" HorizontalOptions="Center" FontSize="Title" FontAttributes="Bold"/>
+             BackgroundColor="#FFF4E8">
+    <ScrollView>
+        <VerticalStackLayout Spacing="50" HorizontalOptions="Center">
+            <StackLayout>
+                <Label Text="Menu Principal" TextColor="DarkOrange" HorizontalOptions="Center" FontSize="Title" FontAttributes="Bold"/>
 
-        </StackLayout>
+            </StackLayout>
 
-        <StackLayout Spacing="5" HorizontalOptions="Center" WidthRequest="340">
-            <Button x:Name="btnComportamento" Clicked="btnComportamento_Clicked" Text="Comportamento em uma entrevista" TextColor="DarkBlue" BackgroundColor="DarkOrange" HorizontalOptions="Fill" Padding="50, 0" CornerRadius="20"/>
-            <Button x:Name="btnCurriculo" Clicked="btnCurriculo_Clicked" Text="Montagem de Currículo" TextColor="DarkBlue" BackgroundColor="DarkOrange" HorizontalOptions="Fill" Padding="50, 0" CornerRadius="20"/>
-            <Button x:Name="btnAutoconhecimento" Clicked="btnAutoconhecimento_Clicked" Text="Autoconhecimento" TextColor="DarkBlue" BackgroundColor="DarkOrange" HorizontalOptions="Fill" Padding="50, 0" CornerRadius="20"/>
-            <Button x:Name="btnRecursos" Clicked="btnRecursos_Clicked" Text="Recursos" TextColor="DarkBlue" BackgroundColor="DarkOrange" HorizontalOptions="Fill" Padding="50, 0" CornerRadius="20"/>
-            <Button x:Name="btnAgradecimento" Clicked="btnAgradecimento_Clicked" Text="Creditos" TextColor="DarkBlue" BackgroundColor="DarkOrange" HorizontalOptions="Fill" Padding="50, 0" CornerRadius="20"/>
-        </StackLayout>
-        
-    </VerticalStackLayout>
+            <StackLayout Spacing="5" HorizontalOptions="Center" WidthRequest="340">
+                <Button x:Name="btnComportamento" Clicked="btnComportamento_Clicked" Text="Comportamento em uma entrevista" TextColor="DarkBlue" BackgroundColor="DarkOrange" HorizontalOptions="Fill" Padding="50, 0" CornerRadius="20"/>
+                <Button x:Name="btnCurriculo" Clicked="btnCurriculo_Clicked" Text="Montagem de Currículo" TextColor="DarkBlue" BackgroundColor="DarkOrange" HorizontalOptions="Fill" Padding="50, 0" CornerRadius="20"/>
+                <Button x:Name="btnAutoconhecimento" Clicked="btnAutoconhecimento_Clicked" Text="Autoconhecimento" TextColor="DarkBlue" BackgroundColor="DarkOrange" HorizontalOptions="Fill" Padding="50, 0" CornerRadius="20"/>
+                <Button x:Name="btnRecursos" Clicked="btnRecursos_Clicked" Text="Recursos" TextColor="DarkBlue" BackgroundColor="DarkOrange" HorizontalOptions="Fill" Padding="50, 0" CornerRadius="20"/>
+                <Button x:Name="btnAgradecimento" Clicked="btnAgradecimento_Clicked" Text="Creditos" TextColor="DarkBlue" BackgroundColor="DarkOrange" HorizontalOptions="Fill" Padding="50, 0" CornerRadius="20"/>
+            </StackLayout>
+
+        </VerticalStackLayout>
+    </ScrollView>
 </ContentPage>
